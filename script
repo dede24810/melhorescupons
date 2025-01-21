@@ -1,0 +1,5 @@
+// scripts.js
+function searchCoupon() {
+    const query = document.getElementById('search').value.toLowerCase();
+    alert("Você está buscando cupons relacionados a: " + query);
+}
