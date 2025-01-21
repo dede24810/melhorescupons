@@ -1,0 +1,137 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #f76c6c; /* Tom de vermelho vibrante */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.search-bar input {
+    padding: 12px;
+    width: 50%;
+    font-size: 16px;
+    border: 2px solid #f76c6c; /* Cor combinando com o cabeçalho */
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #f76c6c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ff5c5c;
+}
+
+.coupons {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.coupon-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.coupon {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.coupon:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.categories {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categories ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.categories ul li a {
+    color: #f76c6c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.categories ul li a:hover {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
